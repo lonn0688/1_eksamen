@@ -1,16 +1,19 @@
-body {height: 100px;
-        position: absolute;
+
+
+
+
+
+body {
+
    /* background: linear-gradient(to bottom, #33ccff 50%, #ff99cc 100%);*/
  background-color: white;
     padding: 20px;
      font-family: 'Lato', sans-serif;
     }
-.nav1 {
 
-}
 
 h1, h2, h3
-
+{font-family: "lato";}
 
 ul {
 
