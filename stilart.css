@@ -29,6 +29,13 @@ li {
 }
 
 
+.nav1{background-size: cover;
+    text-align:left;
+
+
+
+
+}
 
 
 
@@ -46,8 +53,20 @@ nav a {
 
 }
 
+
+/*#nav-utility li:before{content:'\00B7';padding-right:5px;}*/
+
+/*span:after {
+    content: '*';
+}
+span.last:after {
+    content: '';
+}*/
+
 img {
     width: 100%;
 }
+
+.postmodernismebillede{width: 30%;}
 
 
