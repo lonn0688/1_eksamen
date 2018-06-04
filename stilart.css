@@ -89,7 +89,7 @@ object:focus {
 
 
 /*js*/
-bunny_container {
+#bunny_container {
 
 
     width: 20vw;
@@ -132,7 +132,7 @@ bunny_container {
     }
 }
 
-.bunny_container_stop{      /*virker ikke? - virker heller ikke med                                                                ræven*/
+.bunny_container_stop{
  left: px;
     }
 
