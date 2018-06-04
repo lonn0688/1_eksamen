@@ -88,5 +88,111 @@ object:focus {
 }
 
 
+/*js*/
+bunny_container {
+
+
+    width: 20vw;
+    height: 90vw;
+
+
+
+}
+
+#bunny_sprite {
+
+    background-image: url(walkcyclebunnynew.svg);
+    background-size: 700% 100%;
+    position: absolute;
+    width: 11vw;
+    height: 90vw;
+
+}
+
+.bunny_start_position {
+    top: -9vw;
+    left: 30vw;
+
+}
+
+.bunny_container_walk_in{
+    animation-name: bunny_container_walk_in_kf;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes bunny_container_walk_in_kf{
+     0% {
+        left: 0vw;
+    }
+    100% {
+        left: 40vw;
+    }
+}
+
+.bunny_container_stop{      /*virker ikke? - virker heller ikke med                                                                ræven*/
+ left: px;
+    }
+
+.bunny_paws{
+
+    animation-name: bunny_paws_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(7);
+    animation-iteration-count: infinite;
+}
+
+@keyframes bunny_paws_kf {
+
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -700% 0;
+    }
+
+}
+
+
+
+
+
+
+.bunny_walk_in {
+    animation-name: bunny_walk_in_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(7);
+    animation-iteration-count: infinite;
+}
+
+
+
+/*.jumping {
+
+    animation-name: bunny_walk_in_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(7);
+    animation-iteration-count: infinite;
+}*/
+
+@keyframes bunny_walk_in_kf {
+
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -700% 0;
+    }
+}
+
+/*  from {
+        transform: translate(-20px);
+    }
+    to {
+        transform: translate(250px);
+}
+*/
 
 
