@@ -27,15 +27,17 @@ li {
     display: inline;
 
 }
+li:hover img {
+    box-shadow: 0 0 4px 3px rgba(188,143,143);
+}
 
 
 .nav1{background-size: cover;
     text-align:left;
 
-
-
-
 }
+
+
 
 
 
@@ -45,28 +47,46 @@ li {
     text-align: center;
 
 
+
 }
 nav a {
     text-decoration: none;
+color: brown;
 
 
 
 }
 
-
-/*#nav-utility li:before{content:'\00B7';padding-right:5px;}*/
-
-/*span:after {
-    content: '*';
-}
-span.last:after {
-    content: '';
-}*/
 
 img {
     width: 100%;
 }
 
 .postmodernismebillede{width: 30%;}
+
+object:focus {
+    outline:none;
+    border: solid black;
+
+}
+
+
+
+
+
+.animationsbilleder img {
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.animationsbilleder img:hover {
+    box-shadow: 0 0 4px 3px rgba(188,143,143);
+}
+
+
 
 
