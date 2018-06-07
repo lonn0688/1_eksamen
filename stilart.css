@@ -1,23 +1,24 @@
-
-
-
-
-
 body {
 
-   /* background: linear-gradient(to bottom, #33ccff 50%, #ff99cc 100%);*/
- background-color: white;
-    padding: 20px;
-     font-family: 'Lato', sans-serif;
-    }
+    /* background: linear-gradient(to bottom, #33ccff 50%, #ff99cc 100%);*/
+    background-color: white;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
 
 
-h1, h2, h3
-{font-family: "lato";}
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: "lato";
+}
 
 ul {
 
     list-style-type: none;
+
 
 }
 
@@ -27,31 +28,37 @@ li {
     display: inline;
 
 }
+
 li:hover img {
-    box-shadow: 0 0 4px 3px rgba(188,143,143);
-}
-
-
-.nav1{background-size: cover;
-    text-align:left;
+    box-shadow: 0 0 4px 3px rgba(205, 92, 92);
 
 }
 
 
-
-
-
-
-.nav {
+.nav1 {
     background-size: cover;
-    text-align: center;
-
-
+    text-align: left;
 
 }
+
+a:hover {
+    text-shadow: 1px 1px 15px red;
+}
+
+
+
+
+.nav {}
+
 nav a {
+
     text-decoration: none;
-color: brown;
+
+    color: brown;
+    letter-spacing: 2px;
+
+
+
 
 
 
@@ -62,10 +69,12 @@ img {
     width: 100%;
 }
 
-.postmodernismebillede{width: 30%;}
+.postmodernismebillede {
+    width: 30%;
+}
 
 object:focus {
-    outline:none;
+    outline: none;
     border: solid black;
 
 }
@@ -84,60 +93,47 @@ object:focus {
 }
 
 .animationsbilleder img:hover {
-    box-shadow: 0 0 4px 3px rgba(188,143,143);
+    box-shadow: 0 0 4px 3px rgba(205, 92, 92);
 }
 
 
 /*js*/
-#bunny_container {
-
-
-    width: 20vw;
-    height: 90vw;
-
-
-
-}
 
 #bunny_sprite {
 
-    background-image: url(walkcyclebunnynew.svg);
+    background-image: url(walkcyclebunnyeksamen-01.svg);
     background-size: 700% 100%;
+    width: 50px;
+    height: 150px;
+
+}
+
+#bunny_container {
     position: absolute;
-    width: 11vw;
-    height: 90vw;
-
+    left: 0vw;
+    top: 40vw;
 }
 
-.bunny_start_position {
-    top: -9vw;
-    left: 30vw;
-
-}
-
-.bunny_container_walk_in{
+.crazy_bunny {
+    position: absolute;
+    left: 0vw;
+    top: 40vw;
     animation-name: bunny_container_walk_in_kf;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-timing-function: linear;
-    animation-iteration-count: 1;
-
+    animation-iteration-count: infinite;
 }
 
-@keyframes bunny_container_walk_in_kf{
-     0% {
+@keyframes bunny_container_walk_in_kf {
+    0% {
         left: 0vw;
     }
     100% {
-        left: 40vw;
+        left: 90vw;
     }
 }
 
-.bunny_container_stop{
- left: px;
-    }
-
-.bunny_paws{
-
+.bunny_paws {
     animation-name: bunny_paws_kf;
     animation-duration: 1s;
     animation-timing-function: steps(7);
@@ -162,20 +158,13 @@ object:focus {
 
 .bunny_walk_in {
     animation-name: bunny_walk_in_kf;
-    animation-duration: 1s;
-    animation-timing-function: steps(7);
-    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: infinite;
 }
 
 
 
-/*.jumping {
 
-    animation-name: bunny_walk_in_kf;
-    animation-duration: 1s;
-    animation-timing-function: steps(7);
-    animation-iteration-count: infinite;
-}*/
 
 @keyframes bunny_walk_in_kf {
 
@@ -187,12 +176,28 @@ object:focus {
     }
 }
 
-/*  from {
-        transform: translate(-20px);
-    }
-    to {
-        transform: translate(250px);
+
+
+.cvbillede img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
 }
-*/
+
+.footer {
+    font-family: 'lato', sans-serif;
+    padding: 10px;
+    font-size: 12px;
+}
 
 
+@media screen and (min-width:700px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+
+
+    }
