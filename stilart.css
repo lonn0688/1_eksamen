@@ -15,24 +15,33 @@ h3 {
     font-family: "lato";
 }
 
-ul {
 
-    list-style-type: none;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
 
 
 }
 
+.column {
 
+    padding: 5px;
 
-li {
-    display: inline;
 
 }
 
-li:hover img {
+.column:hover img {
     box-shadow: 0 0 4px 3px rgba(205, 92, 92);
 
 }
+
+
+
+
+
+
+
 
 
 .nav1 {
@@ -48,7 +57,7 @@ a:hover {
 
 
 
-.nav {}
+
 
 nav a {
 
@@ -193,11 +202,10 @@ object:focus {
 }
 
 
-@media screen and (min-width:700px) {
-
-    nav {
-        flex-direction: row;
-        justify-content: space-around;
 
 
-    }
+
+
+
+
+

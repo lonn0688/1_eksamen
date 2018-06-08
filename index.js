@@ -9,3 +9,17 @@ function sidenVises() {
 	});
 
 }
+
+
+
+ var i = 0;
+var txt = 'Giv Lonni et 12 tal!'; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("sjov").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
