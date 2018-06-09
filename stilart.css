@@ -2,7 +2,7 @@ body {
 
     /* background: linear-gradient(to bottom, #33ccff 50%, #ff99cc 100%);*/
     background-color: white;
-    padding: 10px;
+
     font-family: 'Lato', sans-serif;
 
 
@@ -36,38 +36,29 @@ h3 {
 
 }
 
-
-
-
-
-
-
-
-
-.nav1 {
-    background-size: cover;
-    text-align: left;
-
-}
-
 a:hover {
     text-shadow: 1px 1px 15px red;
 }
 
 
+.nav2 {display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+
+
+.nav1{display: flex;
+text-align: left;}
 
 
 
 nav a {
 
+
     text-decoration: none;
 
     color: brown;
-    letter-spacing: 2px;
-
-
-
 
 
 

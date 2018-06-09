@@ -13,8 +13,8 @@ function sidenVises() {
 
 
  var i = 0;
-var txt = 'Giv Lonni et 12 tal!'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+var txt = 'Giv Lonni et 12 tal!';
+var speed = 50;
 
 function typeWriter() {
   if (i < txt.length) {
